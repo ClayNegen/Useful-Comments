@@ -28,7 +28,7 @@ export default function CommentList() {
   React.useEffect(() => {
     const fetchData = async () => {
       fetch(
-        "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId=RVMHhtTqUxc&key=AIzaSyA8I9ttWAFKaW7E8tZ9GC2ktb21PRAGmWk"
+        "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId=RVMHhtTqUxc&key=[API_KEY]"
       )
         .then(res => res.json())
         .then(response => {
