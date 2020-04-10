@@ -19,7 +19,7 @@ function Item(props) {
 
 //Comment List
 export default function CommentList() {
-  const apiKey = "AIzaSyA8I9ttWAFKaW7E8tZ9GC2ktb21PRAGmWk";
+  const apiKey = "get it";
   const maxResults = 20;
   const [videoId, setNewVideoId] = React.useState([
     "jniJeamcIUU",

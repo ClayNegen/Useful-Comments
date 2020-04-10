@@ -14,7 +14,7 @@ export default function VideoData() {
         .catch((error) => console.log("Error: ", error));
     };
     fetchData(
-      "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId=5b91dFhZz0g&key=AIzaSyA8I9ttWAFKaW7E8tZ9GC2ktb21PRAGmWk"
+      "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId=5b91dFhZz0g&key="
     );
   }, []);
 
